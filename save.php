@@ -19,7 +19,7 @@ $email = $_POST['email'];
 if(isset($_POST['home_address'])){
     $home = $_POST['home_address'];
 }else{
-    $home = $pob; // same as place of birth
+    $home = $pob; // same as place of birth diin ka natawo
 }
 
 $sql = "INSERT INTO sss_members 
